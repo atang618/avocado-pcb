@@ -6768,8 +6768,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="190.5" y1="20.32" x2="190.5" y2="81.28" width="0.1524" layer="97"/>
 <wire x1="190.5" y1="81.28" x2="83.82" y2="81.28" width="0.1524" layer="97"/>
 <text x="86.36" y="78.74" size="1.778" layer="97">USB</text>
-<text x="152.4" y="-220.98" size="2.54" layer="97">Allen Tang
+<text x="152.4" y="-222.25" size="2.54" layer="97">Allen Tang
+Avocado
 Wildcat Robot Design Studio</text>
+<text x="241.3" y="-238.76" size="2.54" layer="97">01</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="0" y="-15.24"/>
