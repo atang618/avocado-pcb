@@ -13591,8 +13591,8 @@ Silk outline shows header location.
 <part name="GND44" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND45" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND46" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U$8" library="avocado" deviceset="UPJXXXXXMHD6" device=""/>
-<part name="U$13" library="avocado" deviceset="UPJXXXXXMHD6" device=""/>
+<part name="C50" library="avocado" deviceset="UPJXXXXXMHD6" device=""/>
+<part name="C51" library="avocado" deviceset="UPJXXXXXMHD6" device=""/>
 <part name="GND47" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U$2" library="avocado" deviceset="0522070633" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_04" device=""/>
@@ -13799,8 +13799,8 @@ Wildcat Robot Design Studio</text>
 <instance part="GND44" gate="1" x="-60.96" y="-190.5"/>
 <instance part="GND45" gate="1" x="-48.26" y="-147.32"/>
 <instance part="GND46" gate="1" x="-63.5" y="-147.32"/>
-<instance part="U$8" gate="G$1" x="91.44" y="-81.28"/>
-<instance part="U$13" gate="G$1" x="101.6" y="-81.28"/>
+<instance part="C50" gate="G$1" x="91.44" y="-81.28"/>
+<instance part="C51" gate="G$1" x="101.6" y="-81.28"/>
 <instance part="GND47" gate="1" x="91.44" y="-93.98"/>
 <instance part="U$2" gate="G$1" x="-210.82" y="-93.98"/>
 <instance part="J2" gate="G$1" x="-160.02" y="91.44"/>
@@ -13889,10 +13889,10 @@ Wildcat Robot Design Studio</text>
 <junction x="78.74" y="-66.04"/>
 <wire x1="78.74" y1="-66.04" x2="91.44" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="-66.04" x2="101.6" y2="-66.04" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="A"/>
+<pinref part="C50" gate="G$1" pin="A"/>
 <wire x1="91.44" y1="-66.04" x2="91.44" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="91.44" y="-66.04"/>
-<pinref part="U$13" gate="G$1" pin="A"/>
+<pinref part="C51" gate="G$1" pin="A"/>
 <wire x1="101.6" y1="-66.04" x2="101.6" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -14239,10 +14239,10 @@ Wildcat Robot Design Studio</text>
 <pinref part="GND46" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="C"/>
+<pinref part="C50" gate="G$1" pin="C"/>
 <pinref part="GND47" gate="1" pin="GND"/>
 <wire x1="91.44" y1="-86.36" x2="91.44" y2="-91.44" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G$1" pin="C"/>
+<pinref part="C51" gate="G$1" pin="C"/>
 <wire x1="101.6" y1="-86.36" x2="101.6" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="-91.44" x2="91.44" y2="-91.44" width="0.1524" layer="91"/>
 <junction x="91.44" y="-91.44"/>

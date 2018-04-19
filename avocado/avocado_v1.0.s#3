@@ -977,7 +977,7 @@ Source: &lt;a href= "https://www.molex.com/pdm_docs/sd/522070833_sd.pdf"&gt;Data
 <pad name="-" x="3.75" y="0" drill="1"/>
 <circle x="0" y="0" radius="9" width="0.2" layer="21"/>
 <text x="-3.2" y="9.5" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-3.3" y="-12.6" size="1.27" layer="25" font="vector">&gt;VALUE
+<text x="-3.3" y="-12.6" size="1.27" layer="27" font="vector">&gt;VALUE
 </text>
 <wire x1="-7.6" y1="0" x2="-5.5" y2="0" width="0.2" layer="21"/>
 <wire x1="-6.6" y1="1.1" x2="-6.6" y2="-1.1" width="0.2" layer="21"/>
@@ -1778,7 +1778,7 @@ Source: http://www.onsemi.com/pub/Collateral/MBRS130LT3-D.PDF</description>
 <devices>
 <device name="" package="1MM-FPC-11PIN">
 <connects>
-<connect gate="G$1" pin="GND" pad="5 THERMPAD THERMPAD1"/>
+<connect gate="G$1" pin="GND" pad="5"/>
 <connect gate="G$1" pin="H1" pad="3"/>
 <connect gate="G$1" pin="H2" pad="4"/>
 <connect gate="G$1" pin="H3" pad="2"/>

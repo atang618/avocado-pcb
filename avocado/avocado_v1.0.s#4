@@ -15637,9 +15637,9 @@ Wildcat Robot Design Studio</text>
 <label x="-210.82" y="-7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="4"/>
-<wire x1="-160.02" y1="-7.62" x2="-152.4" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-160.02" y="-7.62" size="1.778" layer="95"/>
+<pinref part="U$5" gate="G$1" pin="5"/>
+<wire x1="-160.02" y1="-5.08" x2="-152.4" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-160.02" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A" class="0">
@@ -15649,9 +15649,9 @@ Wildcat Robot Design Studio</text>
 <label x="-210.82" y="-10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="5"/>
-<wire x1="-160.02" y1="-5.08" x2="-152.4" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-160.02" y="-5.08" size="1.778" layer="95"/>
+<pinref part="U$5" gate="G$1" pin="4"/>
+<wire x1="-160.02" y1="-7.62" x2="-152.4" y2="-7.62" width="0.1524" layer="91"/>
+<label x="-160.02" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">

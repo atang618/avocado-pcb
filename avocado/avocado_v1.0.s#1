@@ -13506,8 +13506,8 @@ Silk outline shows header location.
 <part name="R34" library="adafruit" deviceset="R-US_" device="R0402" value="10K"/>
 <part name="FB1" library="microbuilder" deviceset="FERRITE" device="_0805" value="Ferrite"/>
 <part name="FB2" library="microbuilder" deviceset="FERRITE" device="_0805" value="Ferrite"/>
-<part name="5VBUCK" library="avocado" deviceset="LM2594M-5.0" device=""/>
-<part name="3V3BUCK" library="avocado" deviceset="LM2594M-5.0" device=""/>
+<part name="U$7" library="avocado" deviceset="LM2594M-5.0" device=""/>
+<part name="U$6" library="avocado" deviceset="LM2594M-5.0" device=""/>
 <part name="D1" library="avocado" deviceset="MBRS130LT3" device=""/>
 <part name="D4" library="avocado" deviceset="MBRS130LT3" device=""/>
 <part name="C1" library="avocado" deviceset="AVX_TPS_CAP" device="D" value="100u"/>
@@ -13705,8 +13705,8 @@ Wildcat Robot Design Studio</text>
 <instance part="R34" gate="G$1" x="218.44" y="-96.52" rot="R270"/>
 <instance part="FB1" gate="G$1" x="157.48" y="-93.98"/>
 <instance part="FB2" gate="G$1" x="157.48" y="-106.68"/>
-<instance part="5VBUCK" gate="A" x="-233.68" y="129.54"/>
-<instance part="3V3BUCK" gate="A" x="-231.14" y="63.5"/>
+<instance part="U$7" gate="A" x="-233.68" y="129.54"/>
+<instance part="U$6" gate="A" x="-231.14" y="63.5"/>
 <instance part="D1" gate="G$1" x="-213.36" y="127" rot="R90"/>
 <instance part="D4" gate="G$1" x="-213.36" y="60.96" rot="R90"/>
 <instance part="C1" gate="G$1" x="-195.58" y="129.54"/>
@@ -13831,13 +13831,13 @@ Wildcat Robot Design Studio</text>
 <nets>
 <net name="24VDC" class="0">
 <segment>
-<pinref part="5VBUCK" gate="A" pin="VIN"/>
+<pinref part="U$7" gate="A" pin="VIN"/>
 <pinref part="C2" gate="G$1" pin="A"/>
 <wire x1="-251.46" y1="137.16" x2="-261.62" y2="137.16" width="0.1524" layer="91"/>
 <label x="-259.08" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="3V3BUCK" gate="A" pin="VIN"/>
+<pinref part="U$6" gate="A" pin="VIN"/>
 <wire x1="-248.92" y1="71.12" x2="-259.08" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="A"/>
 <wire x1="-259.08" y1="71.12" x2="-259.08" y2="68.58" width="0.1524" layer="91"/>
@@ -13921,7 +13921,7 @@ Wildcat Robot Design Studio</text>
 <junction x="-185.42" y="137.16"/>
 </segment>
 <segment>
-<pinref part="5VBUCK" gate="A" pin="FB"/>
+<pinref part="U$7" gate="A" pin="FB"/>
 <wire x1="-251.46" y1="132.08" x2="-254" y2="132.08" width="0.1524" layer="91"/>
 <label x="-256.54" y="132.08" size="1.778" layer="95"/>
 </segment>
@@ -14056,9 +14056,9 @@ Wildcat Robot Design Studio</text>
 <segment>
 <pinref part="C2" gate="G$1" pin="C"/>
 <wire x1="-261.62" y1="127" x2="-261.62" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="5VBUCK" gate="A" pin="GND"/>
+<pinref part="U$7" gate="A" pin="GND"/>
 <wire x1="-261.62" y1="114.3" x2="-254" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="5VBUCK" gate="A" pin="ON/OFF"/>
+<pinref part="U$7" gate="A" pin="ON/OFF"/>
 <wire x1="-254" y1="114.3" x2="-251.46" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-251.46" y1="129.54" x2="-254" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="-254" y1="129.54" x2="-254" y2="114.3" width="0.1524" layer="91"/>
@@ -14068,9 +14068,9 @@ Wildcat Robot Design Studio</text>
 <segment>
 <pinref part="C4" gate="G$1" pin="C"/>
 <wire x1="-259.08" y1="58.42" x2="-259.08" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="3V3BUCK" gate="A" pin="GND"/>
+<pinref part="U$6" gate="A" pin="GND"/>
 <wire x1="-259.08" y1="48.26" x2="-254" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="3V3BUCK" gate="A" pin="ON/OFF"/>
+<pinref part="U$6" gate="A" pin="ON/OFF"/>
 <wire x1="-254" y1="48.26" x2="-248.92" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-248.92" y1="63.5" x2="-254" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-254" y1="63.5" x2="-254" y2="48.26" width="0.1524" layer="91"/>
@@ -14443,7 +14443,7 @@ Wildcat Robot Design Studio</text>
 <junction x="-187.96" y="71.12"/>
 </segment>
 <segment>
-<pinref part="3V3BUCK" gate="A" pin="FB"/>
+<pinref part="U$6" gate="A" pin="FB"/>
 <wire x1="-248.92" y1="66.04" x2="-256.54" y2="66.04" width="0.1524" layer="91"/>
 <label x="-256.54" y="66.04" size="1.778" layer="95"/>
 </segment>
@@ -15589,7 +15589,7 @@ Wildcat Robot Design Studio</text>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="5VBUCK" gate="A" pin="OUT"/>
+<pinref part="U$7" gate="A" pin="OUT"/>
 <wire x1="-215.9" y1="137.16" x2="-213.36" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="-213.36" y1="137.16" x2="-213.36" y2="129.54" width="0.1524" layer="91"/>
@@ -15600,7 +15600,7 @@ Wildcat Robot Design Studio</text>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="3V3BUCK" gate="A" pin="OUT"/>
+<pinref part="U$6" gate="A" pin="OUT"/>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="-213.36" y1="71.12" x2="-213.36" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="1"/>

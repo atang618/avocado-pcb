@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.393700787" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -171,7 +171,7 @@
 <text x="18.6" y="32" size="0.6096" layer="21">NRST</text>
 <text x="18.9" y="25.6" size="0.6096" layer="21">SWCLK</text>
 <text x="19" y="28.1" size="0.6096" layer="21">TDI</text>
-<text x="-6.9" y="33.4" size="1.016" layer="21">AVOCADO
+<text x="-8.9" y="32.4" size="1.016" layer="21">AVOCADO
 WILDCAT ROBOT DESIGN STUDIO</text>
 <text x="-2.72" y="23.89" size="0.8128" layer="21">ALLEN 
 AKASH NATHAN RACHEL
@@ -14080,6 +14080,12 @@ RYAN TSONG WEILIN</text>
 <rectangle x1="10.195" y1="31.795" x2="10.205" y2="31.805" layer="21"/>
 <rectangle x1="10.215" y1="31.795" x2="10.235" y2="31.805" layer="21"/>
 <rectangle x1="10.215" y1="31.805" x2="10.225" y2="31.815" layer="21"/>
+<hole x="36" y="12" drill="1.6"/>
+<hole x="32" y="20" drill="1.6"/>
+<hole x="15.1" y="34.5" drill="1.6"/>
+<hole x="-2.4" y="37.5" drill="1.6"/>
+<hole x="-27.4" y="25.7" drill="1.6"/>
+<hole x="-12.3" y="35.5" drill="1.6"/>
 </plain>
 <libraries>
 <library name="avocado">
@@ -17101,7 +17107,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="33.759" y="-14.478" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="330" x="-9.69" y="32.5932" smashed="yes" rot="R90">
-<attribute name="NAME" x="-7.5582" y="35.175" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-9.1582" y="36.175" size="1.27" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="R" x="-9.69" y="32.5932" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-7.785" y="31.9582" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -17707,8 +17713,7 @@ design rules under a new name.</description>
 <via x="2.91" y="27.77" extent="1-16" drill="0.35"/>
 <via x="4.24" y="28.64" extent="1-16" drill="0.35"/>
 <via x="-1.42" y="30.58" extent="1-16" drill="0.35"/>
-<via x="-2.95" y="36.4" extent="1-16" drill="0.35"/>
-<via x="14.41" y="33.93" extent="1-16" drill="0.35"/>
+<via x="-5.85" y="37.2" extent="1-16" drill="0.35"/>
 <via x="-16.54" y="30.04" extent="1-16" drill="0.35"/>
 <via x="-9.66" y="30.97" extent="1-16" drill="0.35"/>
 <via x="-12.53" y="23.63" extent="1-16" drill="0.35"/>
@@ -17718,6 +17723,7 @@ design rules under a new name.</description>
 <via x="29.16" y="22.37" extent="1-16" drill="0.35"/>
 <via x="27.2" y="25.44" extent="1-16" drill="0.35"/>
 <via x="18.41" y="17.95" extent="1-16" drill="0.35"/>
+<via x="17.3" y="33" extent="15-16" drill="0.35"/>
 </signal>
 <signal name="3V3DC">
 <contactref element="IC1" pad="39"/>
