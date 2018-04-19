@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,8.6.0*%
+%TF.CreationDate,2018-04-19T17:15:12Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Allen Tang <allentang2018@u.northwestern.edu>*%
+%TJ.B_ID,avocado_v1.0*%
+%TJ.B_LayerNum,4*%
+%TJ.B_Thickness,1.675000*%
+%TJ.B_Size_X,79.000000*%
+%TJ.B_Size_Y,79.000000*%
+M02*
