@@ -9,7 +9,7 @@
 <grid distance="3.93700787" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -14907,6 +14907,16 @@ Source: &lt;a href= "https://www.molex.com/pdm_docs/sd/522070833_sd.pdf"&gt;Data
 <wire x1="3.5" y1="0.46" x2="4.5" y2="0.46" width="0.127" layer="21"/>
 <wire x1="4.5" y1="0.46" x2="4" y2="0.96" width="0.127" layer="21"/>
 </package>
+<package name="3025">
+<smd name="P$1" x="-3.65" y="0" dx="6.9" dy="1.8" layer="1" rot="R90"/>
+<smd name="P$2" x="3.65" y="0" dx="6.9" dy="1.8" layer="1" rot="R90"/>
+<text x="-3.81" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4" y1="3.4" x2="4" y2="3.4" width="0.127" layer="27"/>
+<wire x1="4" y1="3.4" x2="4" y2="-3.4" width="0.127" layer="27"/>
+<wire x1="4" y1="-3.4" x2="-4" y2="-3.4" width="0.127" layer="27"/>
+<wire x1="-4" y1="-3.4" x2="-4" y2="3.4" width="0.127" layer="27"/>
+</package>
 </packages>
 </library>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -17169,6 +17179,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="47.765" y="79.195" size="1.27" layer="27"/>
 </element>
 <element name="U$5" library="avocado" package="5040500591" value="5040500591" x="24.2" y="39" rot="MR270"/>
+<element name="C52" library="avocado" package="3025" value="C7563" x="-5.1" y="20.1"/>
+<element name="C53" library="avocado" package="3025" value="C7563" x="-14.5" y="20.1"/>
+<element name="C54" library="avocado" package="3025" value="C7563" x="-23.9" y="20.1"/>
+<element name="C55" library="avocado" package="3025" value="C7563" x="-33.3" y="20.1"/>
+<element name="C56" library="avocado" package="3025" value="C7563" x="-42.7" y="20.1"/>
 </elements>
 <signals>
 <signal name="24VDC">
@@ -17378,6 +17393,16 @@ design rules under a new name.</description>
 <via x="85.3" y="62.6" extent="1-16" drill="0.35"/>
 <via x="85.9" y="61.7" extent="1-16" drill="0.35"/>
 <via x="81.8" y="69.7" extent="1-16" drill="0.35"/>
+<contactref element="C52" pad="P$1"/>
+<contactref element="C53" pad="P$1"/>
+<contactref element="C54" pad="P$1"/>
+<contactref element="C55" pad="P$1"/>
+<contactref element="C56" pad="P$1"/>
+<wire x1="-36.95" y1="20.1" x2="-46.35" y2="20.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.55" y1="20.1" x2="-36.95" y2="20.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.15" y1="20.1" x2="-27.55" y2="20.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.75" y1="20.1" x2="-18.15" y2="20.1" width="0" layer="19" extent="1-1"/>
+<wire x1="26.2852" y1="39.7608" x2="-8.75" y2="20.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5VDC">
 <contactref element="L1" pad="2"/>
@@ -17737,6 +17762,16 @@ design rules under a new name.</description>
 <via x="24.8" y="44.3" extent="1-16" drill="0.35"/>
 <via x="56.1" y="71.6" extent="1-16" drill="0.35"/>
 <via x="26.1" y="58" extent="1-16" drill="0.35"/>
+<contactref element="C52" pad="P$2"/>
+<contactref element="C53" pad="P$2"/>
+<contactref element="C54" pad="P$2"/>
+<contactref element="C55" pad="P$2"/>
+<contactref element="C56" pad="P$2"/>
+<wire x1="-29.65" y1="20.1" x2="-39.05" y2="20.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.25" y1="20.1" x2="-29.65" y2="20.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.85" y1="20.1" x2="-20.25" y2="20.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.45" y1="20.1" x2="-10.85" y2="20.1" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="31.3" x2="-1.45" y2="20.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V3DC">
 <contactref element="IC1" pad="39"/>
