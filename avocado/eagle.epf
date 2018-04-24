@@ -382,10 +382,5 @@ UsedLibrary="/Applications/EAGLE-8.6.0/lbr/WildcatRobotDesignStudio/CSD88584Q5DC
 UsedLibrary="/Applications/EAGLE-8.6.0/lbr/WildcatRobotDesignStudio/microbuilder.lbr"
 UsedLibrary="/Applications/EAGLE-8.6.0/lbr/WildcatRobotDesignStudio/motor_control.lbr"
 
-[Win_1]
-Type="Control Panel"
-Number=0
-
 [Desktop]
 Screen="1920 1080"
-Window="Win_1"
