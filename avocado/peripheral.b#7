@@ -1626,8 +1626,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.26836875" y="5.87611875" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="7.478046875" y="6.2423375" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330" x="28.983375" y="8.96095625" rot="R90">
-<attribute name="SPICEPREFIX" value="R" x="28.983375" y="8.96095625" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330" x="26.644996875" y="9.91748125" rot="R90">
+<attribute name="SPICEPREFIX" value="R" x="26.644996875" y="9.91748125" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$3" library="avocado" package="5040500591" value="5040500591" x="19" y="13" smashed="yes">
 <attribute name="NAME" x="17.5265375" y="14.983184375" size="1.27" layer="25" font="vector"/>
@@ -1639,10 +1639,10 @@ design rules under a new name.</description>
 <contactref element="U$5" pad="PWR"/>
 <contactref element="J1" pad="4"/>
 <contactref element="J1" pad="3"/>
-<polygon width="0.1524" layer="1">
-<vertex x="0" y="20.32"/>
-<vertex x="46.99" y="20.32"/>
-<vertex x="46.99" y="0"/>
+<polygon width="0.2032" layer="1">
+<vertex x="0.04916875" y="19.163625"/>
+<vertex x="41.409809375" y="19.092715625"/>
+<vertex x="41.360640625" y="-0.070909375"/>
 <vertex x="0" y="0"/>
 </polygon>
 </signal>
@@ -1653,10 +1653,10 @@ design rules under a new name.</description>
 <contactref element="J1" pad="2"/>
 <contactref element="J1" pad="1"/>
 <contactref element="U$5" pad="GND"/>
-<polygon width="0.1524" layer="16">
-<vertex x="0" y="20"/>
-<vertex x="47" y="20"/>
-<vertex x="47" y="0"/>
+<polygon width="0.2032" layer="16">
+<vertex x="-0.049159375" y="19.08923125"/>
+<vertex x="41.852553125" y="19.124684375"/>
+<vertex x="41.9017125" y="0.035453125"/>
 <vertex x="0" y="0"/>
 </polygon>
 <wire x1="17.5" y1="10.46" x2="17.5" y2="9.343821875" width="0.254" layer="1"/>
@@ -1725,14 +1725,15 @@ design rules under a new name.</description>
 <signal name="3V3DC">
 <contactref element="R2" pad="2"/>
 <contactref element="U$3" pad="5"/>
-<wire x1="28.983375" y1="9.91095625" x2="26.36305625" y2="12" width="0.254" layer="1"/>
-<wire x1="17.54" y1="12" x2="16" y2="10.46" width="0.254" layer="1"/>
-<wire x1="26.36305625" y1="12" x2="17.54" y2="12" width="0.254" layer="1"/>
+<wire x1="16" y1="10.46" x2="17.54" y2="12" width="0.254" layer="1"/>
+<wire x1="17.54" y1="12" x2="25.512478125" y2="12" width="0.254" layer="1"/>
+<wire x1="25.512478125" y1="12" x2="26.644996875" y2="10.86748125" width="0.254" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="D1" pad="A"/>
 <contactref element="R2" pad="1"/>
-<wire x1="29.018784375" y1="4.225771875" x2="28.983375" y2="8.01095625" width="0.254" layer="1"/>
+<wire x1="26.644996875" y1="8.96748125" x2="29.018784375" y2="6.59369375" width="0.254" layer="1"/>
+<wire x1="29.018784375" y1="6.59369375" x2="29.018784375" y2="4.225771875" width="0.254" layer="1"/>
 </signal>
 </signals>
 </board>

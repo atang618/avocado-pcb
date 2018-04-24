@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.000123031496" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="19.6850394" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -158,15 +158,16 @@
 <plain>
 <wire x1="0" y1="0" x2="39.5" y2="0" width="0" layer="20"/>
 <wire x1="39.5" y1="0" x2="39.5" y2="18" width="0" layer="20"/>
-<text x="1.443809375" y="11.915396875" size="0.8128" layer="21">AVOCADO V1.0
+<text x="4.13878125" y="10.77435625" size="0.8128" layer="21">AVOCADO V1.0
 PERIPHERALS
 WILDCAT ROBOT 
 DESIGN STUDIO</text>
 <text x="28.04413125" y="10.442740625" size="0.6096" layer="21">ALLEN
 AKASH NATHAN RACHEL
 RYAN TSONG WEILIN</text>
-<wire x1="0" y1="0" x2="0" y2="12.2669375" width="0" layer="20"/>
-<wire x1="0" y1="12.2669375" x2="12.8" y2="18" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="12.5" width="0" layer="20"/>
+<wire x1="0" y1="12.5" x2="12.8" y2="12.5" width="0" layer="20"/>
+<wire x1="12.8" y1="12.5" x2="12.8" y2="18" width="0" layer="20"/>
 <wire x1="12.8" y1="18" x2="39.5" y2="18" width="0" layer="20"/>
 </plain>
 <libraries>
@@ -1666,9 +1667,6 @@ design rules under a new name.</description>
 <wire x1="11.583" y1="3.543353125" x2="11.583" y2="2.94370625" width="0.2032" layer="1"/>
 <wire x1="10.778203125" y1="2.138909375" x2="10.778203125" y2="1.7280875" width="0.2032" layer="1"/>
 <wire x1="11.583" y1="2.94370625" x2="10.778203125" y2="2.138909375" width="0.2032" layer="1"/>
-<wire x1="34.923865625" y1="15.526484375" x2="37.463865625" y2="15.526484375" width="0" layer="19" extent="1-1"/>
-<wire x1="36.84833125" y1="8.04575" x2="37.463865625" y2="15.526484375" width="0" layer="19" extent="1-1"/>
-<wire x1="18.72866875" y1="10.689021875" x2="34.923865625" y2="15.526484375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND_EXT">
 <contactref element="U$1" pad="3"/>
@@ -1686,18 +1684,17 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="2"/>
 <contactref element="R12" pad="1"/>
 <contactref element="U$3" pad="1"/>
-<wire x1="6.289209375" y1="8.941159375" x2="9.268603125" y2="11.920553125" width="0.2032" layer="1"/>
-<wire x1="22.7533125" y1="11.920553125" x2="23.22661875" y2="11.447246875" width="0.2032" layer="1"/>
-<wire x1="23.22661875" y1="11.447246875" x2="23.22661875" y2="10.7496125" width="0.2032" layer="1"/>
-<wire x1="23.22661875" y1="10.7496125" x2="23.22661875" y2="10.691071875" width="0.2032" layer="1"/>
 <wire x1="23.22661875" y1="10.691071875" x2="23.22866875" y2="10.689021875" width="0.2032" layer="1"/>
-<wire x1="9.268603125" y1="11.920553125" x2="22.7533125" y2="11.920553125" width="0.2032" layer="1"/>
 <wire x1="16.31999375" y1="3.944675" x2="17.26408125" y2="3.0005875" width="0.2032" layer="16"/>
 <wire x1="17.26408125" y1="3.0005875" x2="24.861028125" y2="3.0005875" width="0.2032" layer="16"/>
 <wire x1="24.861028125" y1="3.0005875" x2="25.647221875" y2="3.78678125" width="0.2032" layer="16"/>
 <wire x1="25.647221875" y1="3.78678125" x2="25.647221875" y2="3.958371875" width="0.2032" layer="16"/>
 <wire x1="25.647221875" y1="3.958371875" x2="23.22661875" y2="6.378975" width="0.2032" layer="1"/>
 <wire x1="23.22661875" y1="6.378975" x2="23.22661875" y2="10.691071875" width="0.2032" layer="1"/>
+<wire x1="6.289209375" y1="8.941159375" x2="10.941159375" y2="8.941159375" width="0.2032" layer="1"/>
+<wire x1="10.941159375" y1="8.941159375" x2="14" y2="12" width="0.2032" layer="1"/>
+<wire x1="14" y1="12" x2="21.917690625" y2="12" width="0.2032" layer="1"/>
+<wire x1="21.917690625" y1="12" x2="23.22661875" y2="10.691071875" width="0.2032" layer="1"/>
 </signal>
 <signal name="A">
 <contactref element="U$1" pad="1"/>
