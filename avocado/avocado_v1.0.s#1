@@ -845,17 +845,6 @@ Source: http://focus.ti.com/lit/ds/symlink/iso1176.pdf</description>
 <package name="1MM-FPC-11PIN">
 <description>&lt;b&gt;11 pin 1mm Pitch Connectors For FPC/FFC&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href= "https://www.molex.com/pdm_docs/sd/522070833_sd.pdf"&gt;Data sheet&lt;/a&gt;&lt;p&gt;</description>
-<smd name="1" x="-5" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="2" x="-4" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="3" x="-3" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="4" x="-2" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="5" x="-1" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="6" x="0" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="7" x="1" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="8" x="2" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="9" x="3" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="10" x="4" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="11" x="5" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
 <text x="-7.6976" y="4.595" size="1.27" layer="25">&gt;NAME</text>
 <text x="-7.4976" y="-6.8258" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.16" y1="1.7" x2="0.16" y2="3.9" layer="51"/>
@@ -892,6 +881,17 @@ Source: &lt;a href= "https://www.molex.com/pdm_docs/sd/522070833_sd.pdf"&gt;Data
 <vertex x="-5.45" y="0.1"/>
 <vertex x="-7.1" y="0.1"/>
 </polygon>
+<smd name="6" x="0" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="7" x="1" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="8" x="2" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="9" x="3" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="5" x="-1" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="4" x="-2" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="3" x="-3" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="2" x="-4" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="10" x="4" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="1" x="-5" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="11" x="5" y="3.25" dx="0.6" dy="1.9" layer="1"/>
 </package>
 <package name="SOT65P210X110-5N">
 <wire x1="0.68" y1="1.13" x2="-0.68" y2="1.13" width="0.127" layer="21"/>
@@ -13645,11 +13645,11 @@ Silk outline shows header location.
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_04X2" device=""/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="10K"/>
 <part name="U$5" library="avocado" deviceset="5040500591" device=""/>
-<part name="U$1" library="avocado" deviceset="C7563" device=""/>
-<part name="U$8" library="avocado" deviceset="C7563" device=""/>
-<part name="U$13" library="avocado" deviceset="C7563" device=""/>
-<part name="U$14" library="avocado" deviceset="C7563" device=""/>
-<part name="U$15" library="avocado" deviceset="C7563" device=""/>
+<part name="C52" library="avocado" deviceset="C7563" device=""/>
+<part name="C53" library="avocado" deviceset="C7563" device=""/>
+<part name="C54" library="avocado" deviceset="C7563" device=""/>
+<part name="C55" library="avocado" deviceset="C7563" device=""/>
+<part name="C56" library="avocado" deviceset="C7563" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND35" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND36" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -13872,11 +13872,11 @@ Wildcat Robot Design Studio</text>
 <attribute name="VALUE" x="77.978" y="41.91" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="U$5" gate="G$1" x="-167.64" y="-10.16"/>
-<instance part="U$1" gate="G$1" x="111.76" y="-71.12"/>
-<instance part="U$8" gate="G$1" x="119.38" y="-71.12"/>
-<instance part="U$13" gate="G$1" x="111.76" y="-86.36"/>
-<instance part="U$14" gate="G$1" x="119.38" y="-86.36"/>
-<instance part="U$15" gate="G$1" x="111.76" y="-104.14"/>
+<instance part="C52" gate="G$1" x="111.76" y="-71.12"/>
+<instance part="C53" gate="G$1" x="119.38" y="-71.12"/>
+<instance part="C54" gate="G$1" x="111.76" y="-86.36"/>
+<instance part="C55" gate="G$1" x="119.38" y="-86.36"/>
+<instance part="C56" gate="G$1" x="111.76" y="-104.14"/>
 <instance part="GND11" gate="1" x="111.76" y="-78.74"/>
 <instance part="GND35" gate="1" x="119.38" y="-78.74"/>
 <instance part="GND36" gate="1" x="111.76" y="-93.98"/>
@@ -13951,25 +13951,25 @@ Wildcat Robot Design Studio</text>
 <junction x="91.44" y="-66.04"/>
 <pinref part="C51" gate="G$1" pin="A"/>
 <wire x1="101.6" y1="-66.04" x2="101.6" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="1"/>
+<pinref part="C52" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="-66.04" x2="106.68" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="-66.04" x2="111.76" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="-66.04" x2="111.76" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="101.6" y="-66.04"/>
-<pinref part="U$8" gate="G$1" pin="1"/>
+<pinref part="C53" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="-66.04" x2="119.38" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="-66.04" x2="119.38" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="111.76" y="-66.04"/>
 <wire x1="106.68" y1="-66.04" x2="106.68" y2="-83.82" width="0.1524" layer="91"/>
 <junction x="106.68" y="-66.04"/>
-<pinref part="U$13" gate="G$1" pin="1"/>
+<pinref part="C54" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="-83.82" x2="111.76" y2="-83.82" width="0.1524" layer="91"/>
-<pinref part="U$14" gate="G$1" pin="1"/>
+<pinref part="C55" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="-83.82" x2="119.38" y2="-83.82" width="0.1524" layer="91"/>
 <junction x="111.76" y="-83.82"/>
 <wire x1="106.68" y1="-83.82" x2="106.68" y2="-101.6" width="0.1524" layer="91"/>
 <junction x="106.68" y="-83.82"/>
-<pinref part="U$15" gate="G$1" pin="1"/>
+<pinref part="C56" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="-101.6" x2="111.76" y2="-101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -14383,23 +14383,23 @@ Wildcat Robot Design Studio</text>
 <label x="-160.02" y="-12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="2"/>
+<pinref part="C52" gate="G$1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="2"/>
+<pinref part="C53" gate="G$1" pin="2"/>
 <pinref part="GND35" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G$1" pin="2"/>
+<pinref part="C54" gate="G$1" pin="2"/>
 <pinref part="GND36" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$14" gate="G$1" pin="2"/>
+<pinref part="C55" gate="G$1" pin="2"/>
 <pinref part="GND37" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$15" gate="G$1" pin="2"/>
+<pinref part="C56" gate="G$1" pin="2"/>
 <pinref part="GND38" gate="1" pin="GND"/>
 </segment>
 </net>

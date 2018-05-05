@@ -845,17 +845,6 @@ Source: http://focus.ti.com/lit/ds/symlink/iso1176.pdf</description>
 <package name="1MM-FPC-11PIN">
 <description>&lt;b&gt;11 pin 1mm Pitch Connectors For FPC/FFC&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href= "https://www.molex.com/pdm_docs/sd/522070833_sd.pdf"&gt;Data sheet&lt;/a&gt;&lt;p&gt;</description>
-<smd name="1" x="-5" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="2" x="-4" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="3" x="-3" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="4" x="-2" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="5" x="-1" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="6" x="0" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="7" x="1" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="8" x="2" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="9" x="3" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="10" x="4" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="11" x="5" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
 <text x="-7.6976" y="4.595" size="1.27" layer="25">&gt;NAME</text>
 <text x="-7.4976" y="-6.8258" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.16" y1="1.7" x2="0.16" y2="3.9" layer="51"/>
@@ -892,6 +881,17 @@ Source: &lt;a href= "https://www.molex.com/pdm_docs/sd/522070833_sd.pdf"&gt;Data
 <vertex x="-5.45" y="0.1"/>
 <vertex x="-7.1" y="0.1"/>
 </polygon>
+<smd name="6" x="0" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="7" x="1" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="8" x="2" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="9" x="3" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="5" x="-1" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="4" x="-2" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="3" x="-3" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="2" x="-4" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="10" x="4" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="1" x="-5" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="11" x="5" y="3.25" dx="0.6" dy="1.9" layer="1"/>
 </package>
 <package name="SOT65P210X110-5N">
 <wire x1="0.68" y1="1.13" x2="-0.68" y2="1.13" width="0.127" layer="21"/>
@@ -985,12 +985,6 @@ Source: &lt;a href= "https://www.molex.com/pdm_docs/sd/522070833_sd.pdf"&gt;Data
 </package>
 <package name="1MM-FPC-6PIN">
 <description>1MM Pitch, 6 POS, Right Angle SMD</description>
-<smd name="1" x="-2.5" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="2" x="-1.5" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="3" x="-0.5" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="4" x="0.5" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="5" x="1.5" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="6" x="2.5" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
 <text x="-5.1976" y="4.595" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.9976" y="-6.8258" size="1.27" layer="27">&gt;VALUE</text>
 <polygon width="0.2032" layer="21">
@@ -1010,6 +1004,12 @@ Source: &lt;a href= "https://www.molex.com/pdm_docs/sd/522070833_sd.pdf"&gt;Data
 <wire x1="5.35" y1="1.7" x2="5.35" y2="-5.2" width="0.15" layer="51"/>
 <wire x1="5.35" y1="-5.2" x2="-5.35" y2="-5.2" width="0.15" layer="51"/>
 <wire x1="-5.35" y1="-5.2" x2="-5.35" y2="1.7" width="0.15" layer="51"/>
+<smd name="3" x="-0.5" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="4" x="0.5" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="5" x="1.5" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="2" x="-1.5" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="1" x="-2.5" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="6" x="2.5" y="3.25" dx="0.6" dy="1.9" layer="1"/>
 </package>
 <package name="2_SMP">
 <smd name="1" x="-2" y="0" dx="5.08" dy="2.54" layer="1" rot="R90"/>

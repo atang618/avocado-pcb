@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0999999999" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="3.93700787" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -14763,17 +14763,6 @@ Source: http://focus.ti.com/lit/ds/symlink/iso1176.pdf</description>
 <package name="1MM-FPC-11PIN">
 <description>&lt;b&gt;11 pin 1mm Pitch Connectors For FPC/FFC&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href= "https://www.molex.com/pdm_docs/sd/522070833_sd.pdf"&gt;Data sheet&lt;/a&gt;&lt;p&gt;</description>
-<smd name="1" x="-5" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="2" x="-4" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="3" x="-3" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="4" x="-2" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="5" x="-1" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="6" x="0" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="7" x="1" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="8" x="2" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="9" x="3" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="10" x="4" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
-<smd name="11" x="5" y="3.25" dx="0.6" dy="1.9" layer="1" stop="no" cream="no"/>
 <text x="-7.6976" y="4.595" size="1.27" layer="25">&gt;NAME</text>
 <text x="-7.4976" y="-6.8258" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.16" y1="1.7" x2="0.16" y2="3.9" layer="51"/>
@@ -14810,6 +14799,17 @@ Source: &lt;a href= "https://www.molex.com/pdm_docs/sd/522070833_sd.pdf"&gt;Data
 <vertex x="-5.45" y="0.1"/>
 <vertex x="-7.1" y="0.1"/>
 </polygon>
+<smd name="6" x="0" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="7" x="1" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="8" x="2" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="9" x="3" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="5" x="-1" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="4" x="-2" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="3" x="-3" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="2" x="-4" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="10" x="4" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="1" x="-5" y="3.25" dx="0.6" dy="1.9" layer="1"/>
+<smd name="11" x="5" y="3.25" dx="0.6" dy="1.9" layer="1"/>
 </package>
 <package name="NX3225GA">
 <description>Package for NX3225GA OSC</description>
@@ -17264,55 +17264,18 @@ design rules under a new name.</description>
 <vertex x="96.6" y="36.6"/>
 <vertex x="96.6" y="42.4"/>
 </polygon>
-<via x="32.2" y="44.4" extent="1-16" drill="0.35"/>
 <via x="33.3" y="44.4" extent="1-16" drill="0.35"/>
-<via x="34.4" y="44.4" extent="1-16" drill="0.35"/>
 <via x="35.5" y="44.4" extent="1-16" drill="0.35"/>
-<via x="36.6" y="44.4" extent="1-16" drill="0.35"/>
 <via x="37.7" y="44.4" extent="1-16" drill="0.35"/>
-<via x="38.8" y="40.9" extent="1-16" drill="0.35"/>
-<via x="32.2" y="43.2" extent="1-16" drill="0.35"/>
-<via x="33.3" y="43.2" extent="1-16" drill="0.35"/>
-<via x="34.4" y="43.2" extent="1-16" drill="0.35"/>
-<via x="35.5" y="43.2" extent="1-16" drill="0.35"/>
-<via x="36.6" y="43.2" extent="1-16" drill="0.35"/>
-<via x="37.7" y="43.2" extent="1-16" drill="0.35"/>
-<via x="32.2" y="42.1" extent="1-16" drill="0.35"/>
 <via x="33.3" y="42.1" extent="1-16" drill="0.35"/>
-<via x="34.4" y="42.1" extent="1-16" drill="0.35"/>
 <via x="35.5" y="42.1" extent="1-16" drill="0.35"/>
-<via x="36.6" y="42.1" extent="1-16" drill="0.35"/>
 <via x="37.7" y="42.1" extent="1-16" drill="0.35"/>
-<via x="32.2" y="40.9" extent="1-16" drill="0.35"/>
-<via x="33.3" y="40.9" extent="1-16" drill="0.35"/>
-<via x="34.4" y="40.9" extent="1-16" drill="0.35"/>
-<via x="35.5" y="40.9" extent="1-16" drill="0.35"/>
-<via x="36.6" y="40.9" extent="1-16" drill="0.35"/>
-<via x="37.7" y="40.9" extent="1-16" drill="0.35"/>
 <via x="35.5" y="39.8" extent="1-16" drill="0.35"/>
-<via x="36.6" y="39.8" extent="1-16" drill="0.35"/>
 <via x="37.7" y="39.8" extent="1-16" drill="0.35"/>
-<via x="38.8" y="39.8" extent="1-16" drill="0.35"/>
 <via x="39.9" y="39.8" extent="1-16" drill="0.35"/>
-<via x="41" y="39.8" extent="1-16" drill="0.35"/>
-<via x="35.5" y="38.6" extent="1-16" drill="0.35"/>
-<via x="36.6" y="38.6" extent="1-16" drill="0.35"/>
-<via x="37.7" y="38.6" extent="1-16" drill="0.35"/>
-<via x="38.8" y="38.6" extent="1-16" drill="0.35"/>
-<via x="39.9" y="38.6" extent="1-16" drill="0.35"/>
-<via x="41" y="38.6" extent="1-16" drill="0.35"/>
-<via x="36.6" y="37.5" extent="1-16" drill="0.35"/>
 <via x="37.7" y="37.5" extent="1-16" drill="0.35"/>
-<via x="38.8" y="37.5" extent="1-16" drill="0.35"/>
 <via x="39.9" y="37.5" extent="1-16" drill="0.35"/>
-<via x="41" y="37.5" extent="1-16" drill="0.35"/>
 <via x="42.1" y="37.5" extent="1-16" drill="0.35"/>
-<via x="36.6" y="36.3" extent="1-16" drill="0.35"/>
-<via x="37.7" y="36.3" extent="1-16" drill="0.35"/>
-<via x="38.8" y="36.3" extent="1-16" drill="0.35"/>
-<via x="39.9" y="36.3" extent="1-16" drill="0.35"/>
-<via x="41" y="36.3" extent="1-16" drill="0.35"/>
-<via x="42.1" y="36.3" extent="1-16" drill="0.35"/>
 <via x="38.3" y="28.3" extent="1-16" drill="0.35"/>
 <via x="38.3" y="29.4" extent="1-16" drill="0.35"/>
 <via x="38.3" y="30.5" extent="1-16" drill="0.35"/>
@@ -17683,7 +17646,6 @@ design rules under a new name.</description>
 <vertex x="22.3" y="41.5"/>
 </polygon>
 <via x="18.9" y="42.3" extent="1-16" drill="0.35"/>
-<via x="19.1" y="41.2" extent="1-16" drill="0.35"/>
 <via x="22.3" y="39.2" extent="1-16" drill="0.35"/>
 <via x="22.3" y="40.2" extent="1-16" drill="0.35"/>
 <via x="22" y="41.2" extent="1-16" drill="0.35"/>
@@ -19849,7 +19811,6 @@ design rules under a new name.</description>
 <wire x1="86.3" y1="66.8" x2="83.7" y2="69.4" width="0.1524" layer="1"/>
 <wire x1="88.6" y1="58.7" x2="88.6" y2="61.7" width="0.1524" layer="1"/>
 <wire x1="86.3" y1="64" x2="86.3" y2="66.8" width="0.1524" layer="1"/>
-<wire x1="21.87" y1="55.2" x2="17.4" y2="55.2" width="0.1524" layer="1"/>
 <wire x1="77.5" y1="73.3" x2="77.5" y2="73.2" width="0.1524" layer="16"/>
 <via x="77.5" y="73.2" extent="1-16" drill="0.35"/>
 <wire x1="77.5" y1="73.2" x2="77.5" y2="73.742" width="0.1524" layer="1"/>
@@ -19926,6 +19887,8 @@ design rules under a new name.</description>
 <wire x1="17" y1="44.7" x2="16.5" y2="45.2" width="0.1524" layer="1"/>
 <wire x1="16.5" y1="54.3" x2="17.4" y2="55.2" width="0.1524" layer="1"/>
 <wire x1="16.5" y1="45.2" x2="16.5" y2="54.3" width="0.1524" layer="1"/>
+<wire x1="17.4" y1="55.2" x2="21" y2="55.2" width="0.1524" layer="1"/>
+<wire x1="21" y1="55.2" x2="21.87" y2="55.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="H2">
 <contactref element="U$9" pad="INHB"/>
@@ -20372,6 +20335,8 @@ design rules under a new name.</description>
 <approved hash="19,1,be0dd76ff7dc6341"/>
 <approved hash="19,1,a10bd5f6eaeb7c83"/>
 <approved hash="19,1,9156935adf2d40b0"/>
+<approved hash="21,19,bc7dbe7fbe7fbc7d"/>
+<approved hash="19,1,74d37f452e66c6df"/>
 </errors>
 </board>
 </drawing>
