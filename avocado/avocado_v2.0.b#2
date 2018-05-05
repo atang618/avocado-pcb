@@ -17398,7 +17398,7 @@ design rules under a new name.</description>
 <via x="63.7" y="32.6" extent="1-16" drill="0.35"/>
 <via x="67.5" y="35.5" extent="1-16" drill="0.35"/>
 <via x="23.4" y="39.32" extent="1-16" drill="0.35"/>
-<via x="23.6" y="46.32" extent="1-16" drill="0.35"/>
+<via x="23.58" y="47.06" extent="1-16" drill="0.35"/>
 <via x="31.88" y="45.56" extent="1-16" drill="0.35"/>
 <via x="33.4" y="44.08" extent="1-16" drill="0.35"/>
 <via x="31.26" y="43.66" extent="1-16" drill="0.35"/>
@@ -17406,7 +17406,7 @@ design rules under a new name.</description>
 <via x="35.7" y="39.84" extent="1-16" drill="0.35"/>
 <via x="35.8" y="37.1" extent="1-16" drill="0.35"/>
 <via x="37.04" y="44" extent="1-16" drill="0.35"/>
-<via x="30.3" y="46.46" extent="1-16" drill="0.35"/>
+<via x="30.58" y="45.9" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="5VDC">
 <contactref element="L1" pad="2"/>
@@ -17670,6 +17670,22 @@ design rules under a new name.</description>
 <via x="12.9" y="55.8" extent="1-16" drill="0.35"/>
 <via x="86.2" y="43.7" extent="1-16" drill="1.6764" diameter="3"/>
 <via x="52.5" y="75.9" extent="1-16" drill="0.35"/>
+<via x="30.88" y="65.08" extent="1-16" drill="0.35"/>
+<via x="26.68" y="67" extent="1-16" drill="0.35"/>
+<via x="18.4" y="60.64" extent="1-16" drill="0.35"/>
+<via x="14.22" y="62.94" extent="1-16" drill="0.35"/>
+<via x="36.2" y="78.84" extent="1-16" drill="0.35"/>
+<via x="67.04" y="87.08" extent="1-16" drill="0.35"/>
+<via x="87.26" y="67.2" extent="1-16" drill="0.35"/>
+<via x="-6.62" y="43.2" extent="1-16" drill="0.35"/>
+<via x="-3.8" y="41.18" extent="1-16" drill="0.35"/>
+<via x="-0.52" y="38.26" extent="1-16" drill="0.35"/>
+<via x="2.4" y="39.56" extent="1-16" drill="0.35"/>
+<via x="3.38" y="35.92" extent="1-16" drill="0.35"/>
+<via x="7.34" y="33.46" extent="1-16" drill="0.35"/>
+<wire x1="9.8" y1="35" x2="7.34" y2="33.46" width="0" layer="19" extent="1-1"/>
+<via x="3.4" y="62" extent="1-16" drill="0.35"/>
+<via x="6.4" y="62" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="3V3DC">
 <contactref element="IC1" pad="39"/>
@@ -20170,26 +20186,13 @@ design rules under a new name.</description>
 <approved hash="19,1,ae702ae30fdb73a2"/>
 <approved hash="19,1,5628d48a0a428bca"/>
 <approved hash="19,1,56e8d671f3fd748a"/>
-<approved hash="19,1,ccaf60d383e28863"/>
-<approved hash="19,1,e648cdaec00debeb"/>
 <approved hash="19,1,f4499daf901df9fb"/>
 <approved hash="19,1,e9c9802f806de98b"/>
-<approved hash="19,1,fbc8d02ed07dfb9b"/>
 <approved hash="19,1,1dca002c00661d80"/>
-<approved hash="19,1,004a1dac10160df0"/>
 <approved hash="19,1,c198927e902dc3cb"/>
+<approved hash="19,1,effd9c1b8063f385"/>
+<approved hash="19,1,e7fbcc1dd065fb83"/>
 <approved hash="19,1,cc789f9e9e2dcdcb"/>
-<approved hash="19,1,cf589cbe9613c5f5"/>
-<approved hash="19,1,cf789c9e9e1fcdf9"/>
-<approved hash="19,1,047a2f9c2e2e05c8"/>
-<approved hash="19,1,075a2cbc26100df6"/>
-<approved hash="19,1,077a2c9c2e1c05fa"/>
-<approved hash="19,1,e7fbcc1dca19e1ff"/>
-<approved hash="19,1,e5fbce1dc80be3ed"/>
-<approved hash="19,1,e7fbcc1dc86be38d"/>
-<approved hash="19,1,effd9c1b9a1fe9f9"/>
-<approved hash="19,1,edfd9e1b980debeb"/>
-<approved hash="19,1,effd9c1b986deb8b"/>
 <approved hash="19,1,099a227c202e0bc8"/>
 <approved hash="19,1,1d7fa6c5146c5b56"/>
 <approved hash="19,1,c4170615b8527a52"/>
@@ -20209,26 +20212,9 @@ design rules under a new name.</description>
 <approved hash="19,1,b48cd9e50c1c2b87"/>
 <approved hash="19,1,aa8ffbeb791ea684"/>
 <approved hash="19,1,cdec7c7e2e9432f0"/>
-<approved hash="19,1,2655f03264b9bc72"/>
-<approved hash="19,1,ded49c449830d820"/>
-<approved hash="19,1,db3498449c50dd20"/>
-<approved hash="19,1,d62c948490b4d01c"/>
-<approved hash="19,1,daec9b849f94dcfc"/>
-<approved hash="19,1,daec984c9cb8dc98"/>
-<approved hash="19,1,e6aca44ca058e0b8"/>
-<approved hash="19,1,daa4980c9c34dc9c"/>
-<approved hash="19,1,0b88eaf24d3ba31d"/>
-<approved hash="19,1,2abe30ffb2da8ea3"/>
-<approved hash="19,1,c40c5e1a4d602800"/>
-<approved hash="19,1,f8045c8d72531440"/>
-<approved hash="19,1,c444637c72c22840"/>
-<approved hash="19,1,c44465ef77bd2b88"/>
-<approved hash="19,1,c88464e67a242488"/>
-<approved hash="19,1,c59c6b4979172848"/>
-<approved hash="19,1,c07c69f87f862c48"/>
-<approved hash="19,1,56ddf4a2524e1c17"/>
-<approved hash="19,1,effd9c1b8063f385"/>
-<approved hash="19,1,e7fbcc1dd065fb83"/>
+<approved hash="19,1,004a1dac10160df0"/>
+<approved hash="19,1,e648cdaec00debeb"/>
+<approved hash="19,1,fbc8d02ed07dfb9b"/>
 <approved hash="19,1,583bb67380bc2424"/>
 <approved hash="19,1,7a6dc1c5c5b67c9e"/>
 <approved hash="19,1,7fafc5cbc1d879b8"/>
@@ -20247,6 +20233,36 @@ design rules under a new name.</description>
 <approved hash="19,1,3807b817370a4c87"/>
 <approved hash="19,1,3dc5be9835934889"/>
 <approved hash="19,1,c714c322c14d07ce"/>
+<approved hash="19,1,cf589cbe9613c5f5"/>
+<approved hash="19,1,cf789c9e9e1fcdf9"/>
+<approved hash="19,1,047a2f9c2e2e05c8"/>
+<approved hash="19,1,075a2cbc26100df6"/>
+<approved hash="19,1,077a2c9c2e1c05fa"/>
+<approved hash="19,1,e7fbcc1dca19e1ff"/>
+<approved hash="19,1,e5fbce1dc80be3ed"/>
+<approved hash="19,1,e7fbcc1dc86be38d"/>
+<approved hash="19,1,effd9c1b9a1fe9f9"/>
+<approved hash="19,1,edfd9e1b980debeb"/>
+<approved hash="19,1,effd9c1b986deb8b"/>
+<approved hash="19,1,2655f03264b9bc72"/>
+<approved hash="19,1,ded49c449830d820"/>
+<approved hash="19,1,db3498449c50dd20"/>
+<approved hash="19,1,d62c948490b4d01c"/>
+<approved hash="19,1,daec9b849f94dcfc"/>
+<approved hash="19,1,daec984c9cb8dc98"/>
+<approved hash="19,1,e6aca44ca058e0b8"/>
+<approved hash="19,1,daa4980c9c34dc9c"/>
+<approved hash="19,1,0b88eaf24d3ba31d"/>
+<approved hash="19,1,ccaf60d383e28863"/>
+<approved hash="19,1,2abe30ffb2da8ea3"/>
+<approved hash="19,1,c40c5e1a4d602800"/>
+<approved hash="19,1,f8045c8d72531440"/>
+<approved hash="19,1,c44465ef77bd2b88"/>
+<approved hash="19,1,c59c6b4979172848"/>
+<approved hash="19,1,c444637c72c22840"/>
+<approved hash="19,1,c88464e67a242488"/>
+<approved hash="19,1,c07c69f87f862c48"/>
+<approved hash="19,1,56ddf4a2524e1c17"/>
 <approved hash="19,1,98ab9c759df77d37"/>
 </errors>
 </board>
