@@ -386,28 +386,6 @@ design rules under a new name.</description>
 </element>
 </elements>
 <signals>
-<signal name="PWR">
-<polygon width="0.1524" layer="1">
-<vertex x="-0.4" y="9.4"/>
-<vertex x="15" y="9.4"/>
-<vertex x="15" y="-0.9"/>
-<vertex x="-0.4" y="-0.9"/>
-</polygon>
-<contactref element="U$1" pad="PWR"/>
-</signal>
-<signal name="GND">
-<polygon width="0.1524" layer="16">
-<vertex x="-0.7" y="9.5"/>
-<vertex x="-0.7" y="-1.1"/>
-<vertex x="2.9" y="-1.1"/>
-<vertex x="15.4" y="-1.1"/>
-<vertex x="15.4" y="-0.3"/>
-<vertex x="15.4" y="9.7"/>
-<vertex x="14.9" y="9.7"/>
-<vertex x="-0.7" y="9.7"/>
-</polygon>
-<contactref element="U$1" pad="GND"/>
-</signal>
 </signals>
 </board>
 </drawing>

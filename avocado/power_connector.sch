@@ -222,6 +222,18 @@
 <busses>
 </busses>
 <nets>
+<net name="PWR" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PWR"/>
+<wire x1="7.62" y1="2.54" x2="15.24" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="7.62" y1="0" x2="15.24" y2="0" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

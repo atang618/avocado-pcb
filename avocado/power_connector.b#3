@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -156,24 +156,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="14" y2="0" width="0" layer="20"/>
-<wire x1="14" y1="0" x2="14" y2="9" width="0" layer="20"/>
-<wire x1="14" y1="9" x2="0" y2="9" width="0" layer="20"/>
-<wire x1="0" y1="9" x2="0" y2="0" width="0" layer="20"/>
-<hole x="1.5" y="1.5" drill="1.6"/>
-<hole x="12.5" y="1.37" drill="1.6"/>
-<hole x="12.5" y="7.5" drill="1.6"/>
-<hole x="1.5" y="7.5" drill="1.6"/>
-<text x="11" y="3.5" size="0.254" layer="21">AVOCADO V2.0
-WILDCAT ROBOT
-DESIGN STUDIO</text>
-<text x="0.8" y="3.1" size="0.254" layer="21">ALLEN
-AKASH
-NATHAN
-RACHEL
-RYAN
-TSONG
-WEILIN</text>
+<wire x1="0" y1="0" x2="15.22" y2="0" width="0" layer="20"/>
+<wire x1="15.22" y1="0" x2="15.22" y2="11.1" width="0" layer="20"/>
+<wire x1="15.22" y1="11.1" x2="0" y2="11.1" width="0" layer="20"/>
+<wire x1="0" y1="11.1" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="avocado">
@@ -380,41 +366,10 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="avocado" package="B2P-VH" value="B2P-VH" x="6.82" y="4.58" smashed="yes">
-<attribute name="NAME" x="3.46" y="0.84" size="1.27" layer="25"/>
-<attribute name="VALUE" x="2.86" y="-1.36" size="1.27" layer="27"/>
-</element>
+<element name="U$1" library="avocado" package="B2P-VH" value="B2P-VH" x="7.62" y="5.08"/>
 </elements>
 <signals>
-<signal name="PWR">
-<polygon width="0.1524" layer="1">
-<vertex x="-0.4" y="9.4"/>
-<vertex x="15" y="9.4"/>
-<vertex x="15" y="-0.9"/>
-<vertex x="-0.4" y="-0.9"/>
-</polygon>
-<contactref element="U$1" pad="PWR"/>
-</signal>
-<signal name="GND">
-<polygon width="0.1524" layer="16">
-<vertex x="-0.7" y="9.5"/>
-<vertex x="-0.7" y="-1.1"/>
-<vertex x="2.9" y="-1.1"/>
-<vertex x="15.4" y="-1.1"/>
-<vertex x="15.4" y="-0.3"/>
-<vertex x="15.4" y="9.7"/>
-<vertex x="14.9" y="9.7"/>
-<vertex x="-0.7" y="9.7"/>
-</polygon>
-<contactref element="U$1" pad="GND"/>
-</signal>
 </signals>
 </board>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
