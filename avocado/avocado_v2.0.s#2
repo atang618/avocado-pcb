@@ -12913,7 +12913,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="U$2" library="avocado" deviceset="5040500691" device=""/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.01uF"/>
-<part name="IC2" library="avocado" deviceset="LM2675" device="M"/>
+<part name="U$8" library="avocado" deviceset="LM2675" device="M"/>
 <part name="L2" library="avocado" deviceset="B82464G4473M000" device=""/>
 </parts>
 <sheets>
@@ -13116,7 +13116,7 @@ Wildcat Robot Design Studio</text>
 <instance part="C32" gate="G$1" x="-175.26" y="-78.74"/>
 <instance part="U$2" gate="G$1" x="-195.58" y="-147.32"/>
 <instance part="C16" gate="G$1" x="-218.44" y="66.04" rot="R90"/>
-<instance part="IC2" gate="A" x="-233.68" y="66.04"/>
+<instance part="U$8" gate="A" x="-233.68" y="66.04"/>
 <instance part="L2" gate="G$1" x="-205.74" y="60.96" rot="R90"/>
 </instances>
 <busses>
@@ -13133,7 +13133,7 @@ Wildcat Robot Design Studio</text>
 <wire x1="-243.84" y1="71.12" x2="-259.08" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="A"/>
 <label x="-259.08" y="71.12" size="1.778" layer="95"/>
-<pinref part="IC2" gate="A" pin="VIN"/>
+<pinref part="U$8" gate="A" pin="VIN"/>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="VM"/>
@@ -13327,7 +13327,7 @@ Wildcat Robot Design Studio</text>
 <pinref part="C4" gate="G$1" pin="C"/>
 <wire x1="-259.08" y1="60.96" x2="-259.08" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="IC2" gate="A" pin="GND"/>
+<pinref part="U$8" gate="A" pin="GND"/>
 <wire x1="-243.84" y1="60.96" x2="-259.08" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-259.08" y="60.96"/>
 </segment>
@@ -13665,7 +13665,7 @@ Wildcat Robot Design Studio</text>
 <wire x1="-187.96" y1="60.96" x2="-185.42" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-187.96" y1="60.96" x2="-187.96" y2="58.42" width="0.1524" layer="91"/>
 <junction x="-187.96" y="60.96"/>
-<pinref part="IC2" gate="A" pin="FB"/>
+<pinref part="U$8" gate="A" pin="FB"/>
 <wire x1="-198.12" y1="60.96" x2="-198.12" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-198.12" y1="71.12" x2="-220.98" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="2"/>
@@ -14784,7 +14784,7 @@ Wildcat Robot Design Studio</text>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="-213.36" y1="60.96" x2="-213.36" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-213.36" y1="60.96" x2="-210.82" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="VSW"/>
+<pinref part="U$8" gate="A" pin="VSW"/>
 <wire x1="-220.98" y1="60.96" x2="-213.36" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-213.36" y="60.96"/>
 <pinref part="C16" gate="G$1" pin="2"/>
@@ -15247,7 +15247,7 @@ Wildcat Robot Design Studio</text>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="IC2" gate="A" pin="CB"/>
+<pinref part="U$8" gate="A" pin="CB"/>
 <pinref part="C16" gate="G$1" pin="1"/>
 </segment>
 </net>

@@ -17191,13 +17191,15 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="62.3" y="59.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="64.205" y="59.265" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U$8" library="avocado" package="SO08" value="LM2675M" x="58.9" y="54.2" rot="R180">
+<element name="U$8" library="avocado" package="SO08" value="LM2675M" x="58.9" y="54.2" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Unavailable" x="58.9" y="54.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" " x="58.9" y="54.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="National Semiconductor" x="58.9" y="54.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="LM2675" x="58.9" y="54.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="61.679709375" y="58.50783125" size="1.271890625" layer="25" ratio="10" rot="R270"/>
 <attribute name="PACKAGE" value="None" x="58.9" y="54.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="58.9" y="54.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="54.4436" y="56.109890625" size="1.273259375" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="L2" library="avocado" package="B82464G4473M000" value="B82464G4473M000" x="67.3" y="66.2" smashed="yes" rot="R45">
 <attribute name="NAME" x="65.292534375" y="71.93639375" size="1.27" layer="25" rot="R45"/>

@@ -14148,6 +14148,7 @@ WEILIN</text>
 <hole x="17.38" y="34.9" drill="1.6"/>
 <hole x="27.12" y="66.3" drill="1.6"/>
 <hole x="17.38" y="59.3" drill="1.6"/>
+<dimension x1="43.1" y1="79.9" x2="44.6" y2="76" x3="43.85" y3="77.95" textsize="1.778" layer="20"/>
 </plain>
 <libraries>
 <library name="avocado">
@@ -17724,6 +17725,10 @@ design rules under a new name.</description>
 <via x="73" y="70.4" extent="1-16" drill="0.35"/>
 <via x="64.6" y="73.7" extent="1-16" drill="0.35"/>
 <via x="61.67" y="65.43" extent="1-16" drill="0.35"/>
+<via x="93.3" y="39.6" extent="1-16" drill="0.35"/>
+<via x="95.9" y="40.1" extent="1-16" drill="0.35"/>
+<via x="96.1" y="42.7" extent="1-16" drill="0.35"/>
+<via x="93.8" y="42.9" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="3V3DC">
 <contactref element="IC1" pad="39"/>
